@@ -1,0 +1,15 @@
+[project]
+name = "banco-agil"
+version = "0.1.0"
+description = "Agente bancário inteligente multi-agente para o Banco Ágil"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.38",
+    "langgraph>=0.2",
+    "langchain-core>=0.3",
+    "langchain-google-genai>=2.0",
+    "pandas>=2.2",
+    "requests>=2.32",
+    "python-dotenv>=1.0",
+]
